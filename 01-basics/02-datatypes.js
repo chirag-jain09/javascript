@@ -17,7 +17,3 @@ console.log(typeof area);        //undefined
 console.log(typeof null);        //object
 console.log(typeof sym);         //symbol
 console.log(typeof undefined);   //undefined
-
-
-
-
