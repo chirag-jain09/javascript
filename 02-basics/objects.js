@@ -108,5 +108,33 @@ console.log(Object.entries(appuser));   // [ [ 'id', '123abc' ], [ 'name', 'sam'
 // to check if any property is there in the object we use hasOwnProperty
 console.log(appuser.hasOwnProperty('isLoggedIn'));  // false
 
+//-------------------------------- //
 
+// destructuring of object
 
+const course = {
+    coursename: "javascript full course",
+    price: "999",
+    courseInstructor: "yet to be decided"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+// console.log(courseInstructor);      // yet to be decided
+
+console.log(instructor);            // yet to be decided
+
+// something on JSON
+
+// {
+//     "name": "chirag",
+//     "coursename": "js",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
